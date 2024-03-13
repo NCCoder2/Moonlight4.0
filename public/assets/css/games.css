@@ -52,8 +52,12 @@ body {
     text-align: center;
 }
 #searchInput {
-    margin-top: 0px;
-    width: 100vw;
+    margin-top: 5vw;
+    font-family: 'Poppins', sans-serif;
+    width: 50vw;
+    margin: 0 auto;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 15px;
     padding: 8px 20px 8px 40px;
     text-align: center;
     border: 1px solid #ddd;
@@ -74,16 +78,12 @@ body {
     margin-bottom: 30px;
     margin: 0 15px 30px;
     border-radius: 25px;
+    background-image: url("https://special-space-robot-pxqr4q666pp276gx-8080.app.github.dev/uv/service/hvtrs8%2F-3ih2-csqevs%2Cskltepegn%2Cngt-3ih2-csqevs-1-mgtc%2Fcprlg-vowcj-kcmn%2Cplg");
     box-shadow: 4px 3px 8px 1px #96969633;
   	-webkit-box-shadow: 4px 3px 8px 1px #96969633;
     display: flex;
     align-items: flex-end;
-    background-size: cover;
-    background-position: center;
-    background-color: white;
-    transition: background-color 0.3s;
     z-index: 1;
-    transition: transform 0.3s ease;
 }
 .cards .card:hover {
     transform: scale(1.3);
